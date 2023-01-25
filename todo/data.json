@@ -1,0 +1,20 @@
+[
+  {
+    "userName": "MEHRAJ",
+    "email": "meraj@g.com",
+    "phone": "+918585875569",
+    "location": "hyd",
+    "password": "@Rizwan123",
+    "confirmPassword": "@Rizwan123",
+    "todos": []
+  },
+  {
+    "userName": "qayyum the great",
+    "email": "qayyun@gmail.com",
+    "phone": "123456789",
+    "location": "hyd",
+    "password": "123456",
+    "confirmPassword": "123456",
+    "todos": []
+  }
+]
