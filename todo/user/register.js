@@ -45,6 +45,7 @@ async function registerUser() {
         });
         };
 
+
         let fileData = await readFile('../data.json');
         fileData = JSON.parse(fileData);
 
@@ -62,7 +63,7 @@ async function registerUser() {
 
         fileData.push(userData);
         fileData = JSON.stringify(fileData)
-        console.log(fileData)
+        // console.log(fileData)
        
         await writeFile('../data.json',fileData);
         console.log('User Signed Up Successfully');
@@ -77,3 +78,4 @@ async function registerUser() {
 }
 
 registerUser()
+// export default registerUser;

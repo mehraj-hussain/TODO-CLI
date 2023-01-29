@@ -7,9 +7,9 @@ import { writeFile ,readFile} from "../utils/index.js";
 
 
 async function loginuser(){
-    try{  console.log("---------------------------");
+    try{  console.log("==========================");
     console.log('\tLogin User');
-    console.log("---------------------------");
+    console.log("==========================");
 
     var email = readLineSync.question("Enter the Email :  ")
     while(!email) {
@@ -44,4 +44,5 @@ catch(err){
 
 }
 
-loginuser()
+// loginuser()
+export default loginuser;
