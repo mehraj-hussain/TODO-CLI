@@ -6,7 +6,13 @@
     "location": "hyd",
     "password": "@Rizwan123",
     "confirmPassword": "@Rizwan123",
-    "todos": []
+    "todos": [
+      {
+        "toDoName": "Greatefull that atleast i've the power to come back.",
+        "isComplete": false,
+        "todo_id": "inbfTaZP1HWyd"
+      }
+    ]
   },
   {
     "userName": "qayyum the great",

@@ -30,12 +30,25 @@ async function createToDo() {
         if (!(emailFound || passwordFound)){
             throw ('User Doesn\'t Exist');
         }
-        let toDoName = readlineSync.question('Enter a ToDo Task : ');
+
+
+        let toDoName = readlineSync.question("Enter The Task : ")
         while(!toDoName) {
-            let toDoName = readlineSync.question('Enter a ToDo Task : ');
+            let toDoName = readlineSync.question("Enter The Task : ")
+        }
+        let todoData = {
+            toDoName,
+            isComplete : false,
+            todo_id :  randomStringGenerator(12)
         }
 
+        // emailFound.todos.push(todoData);
+        // await fs.writeFile("../data.json", JSON.stringify(fileData));
+        // console.log(chalk.green("Task Added Successfully"))
 
+emailFound.todos.push(todoData);
+await fs.writeFile('../data.json',JSON.stringify(fileData));
+console.log(chalk.green('Task Added Successfully'))
 
 
     }
