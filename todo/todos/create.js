@@ -7,9 +7,9 @@ import { randomStringGenerator, readFile,writeFile} from "../utils/index.js";
 async function createToDo() {
     try {
         console.clear();
-        console.log("==============================");
-        console.log("\tCreate a ToDo");
-        console.log("==============================");
+        console.log('===============================')
+        console.log(chalk.green.bold('\t Create A Todo '))
+        console.log('===============================')
 
         let email = readlineSync.questionEMail('Enter Your Mail : ');
         while(!email){
@@ -17,9 +17,11 @@ async function createToDo() {
         }
 
         let password = readlineSync.question('Enter Your Password : ');
-        // while(!password){
-        //     let password = readlineSync.questionInt('Enter Your Password : ');
-        // }
+        while(!password){
+            let password = readlineSync.questionInt('Enter Your Password : ');
+        }
+
+
 
      
         let fileData = await fs.readFile('../data.json');
@@ -39,7 +41,7 @@ async function createToDo() {
         let todoData = {
             toDoName,
             isComplete : false,
-            todo_id :  randomStringGenerator(12)
+            todo_id :  randomStringGenerator(8)
         }
 
         // emailFound.todos.push(todoData);
@@ -48,7 +50,7 @@ async function createToDo() {
 
 emailFound.todos.push(todoData);
 await fs.writeFile('../data.json',JSON.stringify(fileData));
-console.log(chalk.green('Task Added Successfully'))
+console.log(chalk.yellowBright.underline('Task Added To The List Successfully'))
 
 
     }

@@ -7,7 +7,7 @@ async function registerUser() {
     try {
         console.clear();
         console.log('===============================')
-        console.log('\t User Sign Up ')
+        console.log(chalk.yellowBright.bold('\t User Sign Up '))
         console.log('===============================')
 
         let userName = readLineSync.question('Enter Your Name : ');
@@ -66,7 +66,7 @@ async function registerUser() {
         // console.log(fileData)
        
         await writeFile('../data.json',fileData);
-        console.log('User Signed Up Successfully');
+        console.log(chalk.magentaBright.underline('User Signed Up Successfully'));
 
     }
     

@@ -1,15 +1,19 @@
 // import { readFile, write} from "../utils";
 
 
+import chalk from "chalk";
 import readLineSync from "readline-sync";
 
 import { writeFile ,readFile} from "../utils/index.js";
 
 
 async function loginuser(){
-    try{  console.log("==========================");
-    console.log('\tLogin User');
-    console.log("==========================");
+    try{ 
+        console.clear();
+        console.log('===============================')
+        console.log(chalk.yellowBright.bold('\t User Sign In '))
+        console.log('===============================')
+
 
     var email = readLineSync.question("Enter the Email :  ")
     while(!email) {
@@ -33,7 +37,7 @@ let emailFound = fileData.find((ele) => ele.email == email)
     if(!emailFound){
         throw("Unauthorised Access")
     }
-    console.log("success")
+    console.log(chalk.magentaBright.underline('User Signed In Successfully'));
   
 
     
@@ -44,5 +48,5 @@ catch(err){
 
 }
 
-// loginuser()
-export default loginuser;
+loginuser()
+// export default loginuser;

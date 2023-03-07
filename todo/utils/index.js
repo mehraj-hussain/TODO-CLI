@@ -14,7 +14,7 @@ function timer(time){
     })
 }
 
-timer(5000);
+// timer(5000);
 
 
 function randomStringGenerator(n){
@@ -56,6 +56,7 @@ function writeFile(fileName,data){
         })
     })
 }
+
 
 export {timer,readFile, writeFile,randomStringGenerator}
 

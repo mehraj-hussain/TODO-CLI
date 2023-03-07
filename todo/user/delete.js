@@ -1,4 +1,5 @@
 // import { readFile, write} from "../utils";
+import chalk from "chalk";
 
 
 import readLineSync from "readline-sync";
@@ -8,10 +9,12 @@ import { writeFile ,readFile} from "../utils/index.js";
 
 async function deleteUser(){
     
-    try{ console.clear();
-         console.log("==========================");
-    console.log('\tDelete User');
-    console.log("==========================");
+    try{ 
+        console.clear();
+        console.log('===============================')
+        console.log(chalk.yellowBright.bold('\t User Sign Up '))
+        console.log('===============================')
+
 
     var email = readLineSync.question("Enter the Email :  ")
     while(!email) {
@@ -55,7 +58,8 @@ if(index === -1){
 }
 fileData.splice(index, 1) // remove 1 element from index
 
-console.log("Successfully User Deleted")
+console.log(chalk.magentaBright.underline('User Deleted Successfully '));
+
 
 //writing the updated data to data.json file
 await writeFile("../data.json", JSON.stringify(fileData))
@@ -71,5 +75,5 @@ catch(err){
 
 }
 
-// deleteUser()
-export default deleteUser;
+deleteUser()
+// export default deleteUser;

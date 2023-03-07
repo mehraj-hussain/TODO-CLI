@@ -1,26 +1,123 @@
 [
-  {
-    "userName": "MEHRAJ",
-    "email": "meraj@g.com",
-    "phone": "+918585875569",
-    "location": "hyd",
-    "password": "@Rizwan123",
-    "confirmPassword": "@Rizwan123",
-    "todos": [
-      {
-        "toDoName": "Greatefull that atleast i've the power to come back.",
-        "isComplete": false,
-        "todo_id": "inbfTaZP1HWyd"
-      }
-    ]
-  },
-  {
-    "userName": "qayyum the great",
-    "email": "qayyun@gmail.com",
-    "phone": "123456789",
-    "location": "hyd",
-    "password": "123456",
-    "confirmPassword": "123456",
-    "todos": []
-  }
+    {
+        "userName": "MEHRAJ",
+        "email": "meraj@g.com",
+        "phone": "+918585875569",
+        "location": "hyd",
+        "password": "@Rizwan123",
+        "confirmPassword": "@Rizwan123",
+        "todos": [
+            {
+                "toDoName": "Greatefull that atleast i've the power to come back.",
+                "isComplete": false,
+                "todo_id": "inbfTaZP1HWyd"
+            }
+        ]
+    },
+    {
+        "userName": "qayyum the great",
+        "email": "qayyun@gmail.com",
+        "phone": "123456789",
+        "location": "hyd",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "todos": []
+    },
+    {
+        "userName": "mehraj",
+        "email": "hussain@gmial.com",
+        "phone": "456",
+        "location": "54",
+        "password": "111",
+        "confirmPassword": "111",
+        "todos": []
+    },
+    {
+        "userName": "mh",
+        "email": "mh@gmal.com",
+        "phone": "123",
+        "location": "852",
+        "password": "1111",
+        "confirmPassword": "1111",
+        "todos": []
+    },
+    {
+        "userName": "jk",
+        "email": "ere@re.revs",
+        "phone": "456",
+        "location": "54",
+        "password": "123",
+        "confirmPassword": "123",
+        "todos": []
+    },
+    {
+        "userName": "brescaw",
+        "email": "cweaw@rfwe.com",
+        "phone": "741",
+        "location": "654",
+        "password": "123",
+        "confirmPassword": "123",
+        "todos": []
+    },
+    {
+        "userName": "gfghlk",
+        "email": "jhbujk@erw.com",
+        "phone": "741",
+        "location": "456",
+        "password": "123",
+        "confirmPassword": "123",
+        "todos": []
+    },
+    {
+        "userName": "wcea",
+        "email": "vwefdw@vrwe.co",
+        "phone": "[D[C",
+        "location": "[D[C",
+        "password": "[F[B[6~",
+        "confirmPassword": "[F[B[6~",
+        "todos": []
+    },
+    {
+        "userName": "vwe",
+        "email": "vrew@verw.co",
+        "phone": "wea",
+        "location": "[D[C",
+        "password": "[D[C",
+        "confirmPassword": "[D[C",
+        "todos": []
+    },
+    {
+        "userName": "b fsdvac",
+        "email": "ceqw@erew.com",
+        "phone": "ver",
+        "location": "eds",
+        "password": "[F[B[6~",
+        "confirmPassword": "[F[B[6~",
+        "todos": [
+            {
+                "toDoName": "chalk",
+                "isComplete": false,
+                "todo_id": "I1GC397k8Xv7L"
+            },
+            {
+                "toDoName": "chalk",
+                "isComplete": false,
+                "todo_id": "yHUBrgye8wwLG"
+            },
+            {
+                "toDoName": "sleeping",
+                "isComplete": false,
+                "todo_id": "q9p7ZJkJUj7fn"
+            }
+        ]
+    },
+    {
+        "userName": "weas",
+        "email": "vfesa@erwin",
+        "phone": "[H[D[F",
+        "location": "ewq",
+        "password": "[D[C",
+        "confirmPassword": "[D[C",
+        "todos": []
+    }
 ]
